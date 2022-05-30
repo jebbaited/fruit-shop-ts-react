@@ -1,0 +1,16 @@
+.FruitList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+  img {
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  > div {
+    background-color: #1c1c1c;
+  }
+}
